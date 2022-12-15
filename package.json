@@ -8,13 +8,13 @@
     "lint:style": "stylelint src/**/*.{css,scss}"
   },
   "dependencies": {
-    "preact": "^10.4.1"
+    "preact": "^10.7.1"
   },
   "devDependencies": {
-    "@prefresh/vite": "^1.2.1",
+    "@preact/preset-vite": "^2.0.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint": "^8.3.0",
-    "eslint-config-preact": "^1.2.0",
+    "eslint-config-preact": "^1.1.4",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
@@ -23,7 +23,7 @@
     "stylelint-config-recommended": "^6.0.0",
     "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.5.2",
-    "vite": "^1.0.0-rc.13"
+    "vite": "^4.0.0"
   },
   "husky": {
     "hooks": {
