@@ -1,18 +1,11 @@
 // @ts-check
-import { join } from 'path'
 import preact from '@preact/preset-vite'
-import type { UserConfig } from 'vite'
+import { defineConfig } from 'vite'
 
-const config: UserConfig = {
-  jsx: {
-    factory: 'h',
-    fragment: 'Fragment',
+export default defineConfig({
+  esbuild: {
+    jsxFactory: 'h',
+    jsxFragment: 'Fragment',
   },
-  alias: {
-    '/@/': join(__dirname, 'src'),
-  },
-
   plugins: [preact()],
-}
-
-export default config
+})

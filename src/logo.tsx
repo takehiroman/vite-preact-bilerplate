@@ -1,6 +1,8 @@
 import { h } from 'preact'
 export const Logo = () => (
   <svg
+    role="img"
+    aria-label="Preact"
     class="logo"
     height="180px"
     viewBox="-256 -256 1800 512"

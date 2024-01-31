@@ -1,5 +1,5 @@
+import { Fragment, h } from 'preact'
 import { Logo } from './logo'
-import { h, Fragment } from 'preact'
 export function App() {
   return (
     <>
