@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "biome lint . --apply",
     "format": "biome format . --write",
+    "checkAll": "biome check . --apply-unsafe",
     "lint:style": "stylelint src/**/*.{css,scss}"
   },
   "dependencies": {
