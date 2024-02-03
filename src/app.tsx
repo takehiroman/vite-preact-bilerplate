@@ -1,6 +1,8 @@
 import { Fragment, h } from 'preact'
 import { Logo } from './logo'
 export function App() {
+  const a = 'a'
+  a = 'b'
   return (
     <>
       <Logo />
