@@ -17,7 +17,7 @@ pre-commit:
   commands:
     check:
       glob: '*.{js,ts,jsx,tsx}'
-      run: yarn biome check {staged_files}
+      run: yarn biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
 #     rubocop:
 #       tags: backend style
 #       glob: "*.rb"
